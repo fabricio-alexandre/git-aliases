@@ -1,0 +1,27 @@
+#ALIAS GERAIS DO GIT
+
+#visualizacao dos alias
+al-cat = !cat ~/.gitconfig
+
+#edicao dos alias
+al-edit = !nano ~/.gitconfig
+
+#status
+st = status -s
+
+#simplificacao de logs
+lg = log --oneline --decorate --max-count=20
+
+#adiciona todos os arquivos na stage e abre o arquivo de commit
+ac = !git add -A && git commit
+
+#push
+ps = push
+
+#branch
+br = branch
+	
+#-----------------------------------------------------------#
+	
+#ESPECIFICOS DO PROJETO
+psmktplace = push origin marketplace
